@@ -5,3 +5,4 @@ uv add instructLab
 
 ilab config init
 
+git clone git@github.com:instructlab/taxonomy

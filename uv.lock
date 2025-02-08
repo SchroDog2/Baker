@@ -236,7 +236,6 @@ dependencies = [
     { name = "ipython" },
     { name = "requests" },
     { name = "vllm" },
-    { name = "wikipedia" },
 ]
 
 [package.metadata]
@@ -245,7 +244,6 @@ requires-dist = [
     { name = "ipython", specifier = ">=8.32.0" },
     { name = "requests", specifier = ">=2.32.3" },
     { name = "vllm", specifier = ">=0.7.0" },
-    { name = "wikipedia", specifier = ">=1.4.0" },
 ]
 
 [[package]]
@@ -5069,16 +5067,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/8a/98/2d9906746cdc6a6ef
 wheels = [
     { url = "https://files.pythonhosted.org/packages/0b/2c/87f3254fd8ffd29e4c02732eee68a83a1d3c346ae39bc6822dcbcb697f2b/wheel-0.45.1-py3-none-any.whl", hash = "sha256:708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248", size = 72494 },
 ]
-
-[[package]]
-name = "wikipedia"
-version = "1.4.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "beautifulsoup4" },
-    { name = "requests" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/67/35/25e68fbc99e672127cc6fbb14b8ec1ba3dfef035bf1e4c90f78f24a80b7d/wikipedia-1.4.0.tar.gz", hash = "sha256:db0fad1829fdd441b1852306e9856398204dc0786d2996dd2e0c8bb8e26133b2", size = 27748 }
 
 [[package]]
 name = "word2number"
