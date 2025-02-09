@@ -1,0 +1,91 @@
+version: 3
+domain: finance
+created_by: Jiabo Yu
+seed_examples:
+  - context: |
+      **Walleye Capital** is an American multi-strategy hedge fund management firm headquartered in New York City, with additional offices in London and Dubai. Founded in 2005 by Irvin Kessler and Pete Goddard, the firm has evolved from its origins as an options market-making firm in Minnesota to a diversified investment platform. As of January 2025, Walleye Capital manages approximately $7.7 billion in assets and employs around 350 people. The firm is led by CEO and CIO Will England.
+    questions_and_answers:
+      - question: |
+          What is Walleye Capital?
+        answer: |
+          Walleye Capital is an American multi-strategy hedge fund management firm headquartered in New York City, with additional offices in London and Dubai.
+      - question: |
+          When was Walleye Capital founded, and by whom?
+        answer: |
+          Walleye Capital was founded in 2005 by Irvin Kessler and Pete Goddard.
+      - question: |
+          Who is the current CEO and CIO of Walleye Capital?
+        answer: |
+          The current CEO and CIO of Walleye Capital is Will England.
+
+  - context: |
+      In its early years, Walleye Capital focused on electronic trading, utilizing data and advanced computing to generate profits for its clients. Co-founder Pete Goddard oversaw the development of a system called Deephaven, which enabled analysts to query large volumes of fast-moving data in real-time, providing a competitive advantage. In 2016, Goddard spun off Deephaven Data Labs as an independent company to address data challenges in various industries.
+    questions_and_answers:
+      - question: |
+          What was Walleye Capital's initial focus?
+        answer: |
+          Walleye Capital initially focused on electronic trading, utilizing data and advanced computing to generate profits for its clients.
+      - question: |
+          What is Deephaven, and who developed it?
+        answer: |
+          Deephaven is a system that enables analysts to query large volumes of fast-moving data in real-time. It was developed under the oversight of co-founder Pete Goddard.
+      - question: |
+          What happened to Deephaven Data Labs in 2016?
+        answer: |
+          In 2016, Pete Goddard spun off Deephaven Data Labs as an independent company to address data challenges in various industries.
+
+  - context: |
+      In 2017, Walleye Capital began accepting outside capital and restructured to become a hedge fund. The firm aimed to shed its Midwestern image and establish itself as a leading midsize multi-strategy platform. To achieve this, Walleye limited the capital it managed, allowing it to allocate more risk to its volatility and quantitative strategies.
+    questions_and_answers:
+      - question: |
+          When did Walleye Capital start accepting outside capital?
+        answer: |
+          Walleye Capital began accepting outside capital in 2017.
+      - question: |
+          What strategic changes did Walleye Capital implement in 2017?
+        answer: |
+          In 2017, Walleye Capital restructured to become a hedge fund, aiming to establish itself as a leading midsize multi-strategy platform by limiting the capital it managed and allocating more risk to its volatility and quantitative strategies.
+      - question: |
+          How did Walleye Capital differentiate itself from larger hedge funds?
+        answer: |
+          Walleye Capital focused on maintaining a midsize structure, allowing more risk allocation to its volatility and quantitative strategies rather than scaling up to the size of firms like Citadel or Millennium.
+
+  - context: |
+      In 2023, Walleye Capital launched Dockside Platforms, connecting investors to smaller money managers that charge lower fees and offer greater liquidity and transparency. This initiative was seen as a way to provide more options to investors and challenge the dominance of larger hedge funds such as Citadel LLC, Millennium Management, and Point72 Asset Management.
+    questions_and_answers:
+      - question: |
+          What is Dockside Platforms?
+        answer: |
+          Dockside Platforms is an initiative launched by Walleye Capital in 2023 to connect investors to smaller money managers that charge lower fees and offer greater liquidity and transparency.
+      - question: |
+          What was the purpose of launching Dockside Platforms?
+        answer: |
+          The purpose of launching Dockside Platforms was to provide more options to investors and challenge the dominance of larger hedge funds.
+      - question: |
+          How does Dockside Platforms compare to traditional hedge fund models?
+        answer: |
+          Dockside Platforms offers investors access to smaller managers with lower fees, greater liquidity, and more transparency than traditional multi-strategy hedge funds.
+
+  - context: |
+      In March 2024, Walleye Capital laid off 12 employees, representing 4% of its workforce, as part of a restructuring process. Further reductions occurred in August 2024, with an additional 12 employees laid off and the closure of the firm's Houston office. In October 2024, eight more traders departed the firm.
+    questions_and_answers:
+      - question: |
+          How many employees did Walleye Capital lay off in March 2024?
+        answer: |
+          Walleye Capital laid off 12 employees in March 2024, representing 4% of its workforce.
+      - question: |
+          What significant action did Walleye Capital take in August 2024?
+        answer: |
+          In August 2024, Walleye Capital laid off an additional 12 employees and closed its Houston office.
+      - question: |
+          How many traders left Walleye Capital in October 2024?
+        answer: |
+          Eight traders departed Walleye Capital in October 2024.
+
+document_outline: |
+  Information about Walleye Capital, including its history, strategic initiatives, leadership, and recent developments.
+document:
+  repo: https://github.com/SchroDog2/Baker.git
+  commit: 6b7327c
+  patterns:
+    - knowledge_base/Walleye_Capital.md
